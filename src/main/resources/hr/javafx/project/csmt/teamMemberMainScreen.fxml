@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="615.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.javafx.project.csmt.controller.member.TeamMemberMainScreenController">
+    <fx:include source="logoutButton.fxml" />
+   <Button layoutX="241.0" layoutY="171.0" mnemonicParsing="false" onAction="#showMyTasksScreen" prefHeight="104.0" prefWidth="311.0" text="My tasks" />
+   <Button layoutX="241.0" layoutY="362.0" mnemonicParsing="false" onAction="#showDashboardScreen" prefHeight="104.0" prefWidth="311.0" text="Dashboard" />
+
+</AnchorPane>

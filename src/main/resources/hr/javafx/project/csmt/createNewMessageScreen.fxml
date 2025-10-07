@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="615.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.javafx.project.csmt.controller.manager.CreateNewMessageScreenController">
+   <children>
+      <Label layoutX="383.0" layoutY="43.0" text="Title" />
+      <TextField fx:id="messageNameTextField" layoutX="233.0" layoutY="83.0" prefHeight="25.0" prefWidth="323.0" />
+      <Label layoutX="373.0" layoutY="140.0" text="Message " />
+      <TextArea fx:id="messageDescriptionTextField" layoutX="235.0" layoutY="178.0" prefHeight="200.0" prefWidth="323.0" />
+      <ListView fx:id="messageTaskListView" layoutX="160.0" layoutY="428.0" prefHeight="97.0" prefWidth="470.0" />
+      <Button layoutX="351.0" layoutY="550.0" mnemonicParsing="false" onAction="#addMessage" text="Add message" />
+      <Label layoutX="365.0" layoutY="388.0" text="Select a task" />
+      <Button layoutX="36.0" layoutY="31.0" mnemonicParsing="false" onAction="#back" text="&lt;-Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="615.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.javafx.project.csmt.controller.member.DashboardController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="&lt;-Back" />
+      <ListView fx:id="messagesListView" layoutX="-5.0" layoutY="45.0" prefHeight="571.0" prefWidth="793.0" />
+      <Label layoutX="341.0" layoutY="18.0" text="Messages dashboard" />
+   </children>
+</AnchorPane>

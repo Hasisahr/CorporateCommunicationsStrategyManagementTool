@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Label?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.javafx.project.csmt.controller.ChangesController">
+   <children>
+      <ListView fx:id="changesListView" layoutX="-1.0" layoutY="41.0" prefHeight="358.0" prefWidth="600.0" />
+      <Label layoutX="261.0" layoutY="14.0" text="Changes made" />
+   </children>
+    <fx:include source="backToLoginButton.fxml" />
+</AnchorPane>
